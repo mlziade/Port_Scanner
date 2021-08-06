@@ -19,7 +19,7 @@ Se a porta estiver aberta, o status é setado como 'open'.
 Se a porta extiver fechada, o stutus é setado como 'error'.
 Se uma resposta nunca for recebida dentro do time-out, há duas possibilidades: a conexão foi bloqueada por um firewall ou esta inacessível.
 Uma tabela é printada no console com todas as portas.
-Nossa aplicação só funciona em computadores ligados a uma rede comum, seja o mesmo modem ou mesmo roteador, fazendo com que usemos o IPv4 ao invés de um IP público.
+Nossa aplicação só funciona em computadores ligados a uma rede comum, seja o mesmo modem ou mesmo roteador, fazendo com que usemos o IPv4 ao invés de um IP público. Caso queira scanear sua propia máquina, pode-se usar `localhost` como o IP.
 
 
 ## Instruções instalação
